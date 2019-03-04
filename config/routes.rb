@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
+  resources :runlogs
   root 'cars#index'
-  resources :cars
 end
