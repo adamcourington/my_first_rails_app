@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Run:</strong>
+  <%= @runlog.run %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @runlog.date %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @runlog.address %>
+</p>
+
+<%= link_to 'Edit', edit_runlog_path(@runlog) %> |
+<%= link_to 'Back', runlogs_path %>
